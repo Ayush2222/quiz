@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div id="nav_bar" style="position:fixed; top:0px">
+        <div style="display: flex;flex-direction: row;">
+
+            <img id="logo" src="./logo.png" alt="" srcset="" />
+            <h1 style="margin-right: 10px; color: lightgray">Mental</h1>
+            <h1>Maths</h1>
+        </div>
+
+      <div id="text_back_to_site">
+          <a href="http://students.stkabir.com/user.html">Back to Main site</a>
+      </div>
+    </div>
+
+    <div id="parent_of_all_divs">
+      <!-- <div> -->
+          <div id="heading">
+              
+          </div>
+        <table  id="res_tab">
+          <tr>
+            <th>Date</th>
+            <th>Correct</th>
+            <th>Wrong</th>
+            <th>Que Attempted</th>
+            <th>Time Taken</th>
+            <th>Accuracy</th>
+          </tr>
+          <tr>
+            <td id="date"></td>
+            <td id="correct_answers"></td>
+            <td id="wrong_answers"></td>
+            <td id="attempted"></td>
+            <td id="time"></td>
+            <td id="accuracy"></td>
+          </tr>
+        </table>
+      <!-- </div> -->
+      <div class="questions_div" id="questions_div1"></div>
+      <div class="questions_div" id="questions_div2"></div>
+      <div class="questions_div" id="questions_div3"></div>
+      <div class="questions_div" id="questions_div4"></div>
+      <div class="questions_div" id="questions_div5"></div>
+    </div>
+  
+    <script src="./result.js"></script>
+  </body>
+</html>
