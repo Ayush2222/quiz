@@ -629,7 +629,7 @@ next_btn.addEventListener('click', ()=>{
     if(slide_no==5){
         // que_div5.style.display = "none"
         sessionStorage.setItem("time_left", timer.innerText)
-        location.replace("./result.php")
+        location.replace("./result.html")
         
        
     }
